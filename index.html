@@ -8,7 +8,74 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="hello">Hello!  </div>
+   <header>
+       <div style="text-align: center;">
+    <img class="avatar" src="avatar.png">
+       </div>
+       <h1>Artem Kolodyzhnyy</h1>
+   </header>
+   <main>
+        <article id="contactInfo">
+                <h2>Contact Info:</h2>
+                <ul>
+                    <li><b>Email:</b> artem5553@mail.ru</li>
+                    <li><b>GitHub:</b> https://github.com/dezzik63</li>
+                    <li><b>Discord:</b> Artem163#0122</li>
+                </ul>
+            </article>
+                <article id="summary">
+                        <h2>Summary:</h2>
+                        <blockquote>I want to get quality knowledge in IT. At the moment I am studying at the university in mechanical engineering, I will enter the magistracy for an IT specialty, since it interests me more.
+                                I do not throw everything halfway if something does not work for me
+                                I believe that IT specialties in this period and in the future are very promising</blockquote>
+                    </article>
+                <article id="skills">
+                        <h2>Skills:</h2>
+                        <ul>
+                            <li>HTML, CSS, JS (base)</li>
+                            <li>Java(base)</li>
+                            <li>C# (Unity3D)</li>
+                        </ul>
+                        <details>
+                            <summary>Code example</summary>
+                            <code>
+                                <pre>
+                                        package com.company; 
+                                        import java.util.Scanner; 
+                                        public class Main { 
+                                        public static void main(String[] args) { 
+                                        Scanner scn = new Scanner(System.in); 
+                                        String s = scn.nextLine().toLowerCase(); 
+                                        int n = s.length()/2; 
+                                        for (int i = 1; i<=s.length()/2; i++) { 
+                                        if (s.charAt(i-1) == s.charAt(s.length()-i)) { 
+                                        n--; 
+                                        if (n==0){ 
+                                        System.out.println("полиндром"); 
+                                        } 
+                                        } 
+                                        } 
+                                        } 
+                                        }
+                                </pre>
+                            </code>
+                        </details>
+                    </article>
+   </main>
+                <article id="experience">
+                        <h2>Experience:</h2>
+                        <ul>
+                            <li>HTMLAcademy</li>
+                            <li>Grokking Algorithms: An illustrated guide for programmers and other curious people</li>
+                        </ul>
+                    </article>
+                        <article id="english">
+                                <h2>English:</h2>
+                                <blockquote>I read with a dictionary, often translate through Google translate, currently study English through university courses and use Internet resources</blockquote>
+                            </article>
+   <footer>
+
+   </footer> 
     
 </body>
 </html>
