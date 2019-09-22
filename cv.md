@@ -31,3 +31,9 @@ System.out.println("полиндром");
 } 
 }
 ```
+# Experience
++ HTMLAcademy
++ Grokking Algorithms: An illustrated guide for programmers and other curious people
+
+# English:
+I read with a dictionary, often translate through Google translate, currently study English through university courses and use Internet resources
